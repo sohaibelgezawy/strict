@@ -41,7 +41,7 @@ body {
   position: relative;
   height: 520px;
 
-  background: url(./photos/headerbg.png) , linear-gradient(rgba(128, 128, 128, 0.948) , rgba(195, 192, 192, 0.737));
+  background: url(headerbg.png) , linear-gradient(rgba(128, 128, 128, 0.948) , rgba(195, 192, 192, 0.737));
   background-size: cover;
   background-position: center center;
   display:flex;
@@ -138,7 +138,7 @@ body {
 .stay { position:relative; padding:70px 0 40px; color:#fff; }
 .stay-bg {
   position:absolute; inset:0;
-  background-image: url('./photos/contactbg.png');
+  background-image: url('contactbg.png');
   background-size:cover; background-position:center;
   
   z-index:0;
@@ -197,3 +197,4 @@ body {
   .grid { grid-template-columns: 1fr; }
   .footer-inner { flex-direction:column; text-align:center; }
 }
+
